@@ -1,0 +1,44 @@
+doctype html
+html
+	head
+		title= title
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel='stylesheet', href='/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/css/bootstrap-grid.min.css')
+		link(rel='stylesheet', href='/css/style.css')
+		script(src="//localhost:35729/livereload.js")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" )
+		script(src="/js/bootstrap.min.js" )
+		script(src="/js/bootstrap.bundle.min.js" )
+		
+    	
+	body
+		header
+			.container
+				.logo
+			.menu-top
+				.container
+					nav.navbar.navbar-expand-sm.navbar-dark
+						a.navbar-brand(href="#")
+						button.navbar-toggler(type="button" data-toggle="collapse" data-target="#collapsibleNavbar")
+							span.navbar-toggler-icon
+						.collapse.navbar-collapse(id="collapsibleNavbar")
+							ul.navbar-nav
+								li.nav-item
+									a.nav-link(href="#") Home
+								li.nav-item
+									a.nav-link(href="#") Blog
+								li.nav-item
+									a.nav-link(href="#") Contacts
+
+
+		content
+			.container
+				block content
+
+
+		footer
+
+
+	script(src="/js/app.min.js" )

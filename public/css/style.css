@@ -1,0 +1,28 @@
+/* line 2, ../../compass/style.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 5, ../../compass/style.scss */
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* line 10, ../../compass/style.scss */
+a {
+  color: #00B7FF;
+}
+
+/* line 14, ../../compass/style.scss */
+header {
+  display: block;
+}
+/* line 18, ../../compass/style.scss */
+header .logo {
+  height: 75px;
+  background-color: #ccc;
+}
+/* line 22, ../../compass/style.scss */
+header .menu-top {
+  background-color: #3f3f3f;
+}

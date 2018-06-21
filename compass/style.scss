@@ -1,0 +1,26 @@
+@import "compass/css3";
+a:hover{
+	text-decoration: none;
+}
+body {
+  //padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header{
+	
+	//border: 1px solid black;
+	display: block;
+	.logo{
+		height: 75px;
+		background-color: #ccc;
+	}
+	.menu-top{
+		background-color: #3f3f3f;
+		
+	}
+}
